@@ -1,0 +1,332 @@
+.App {
+  text-align: center;
+  font-family:serif  ;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.contractParent{
+  border: solid beige;
+  display:flex;
+  padding:10px;
+  border-width:1px;
+  color:beige
+}
+.contractChild{
+border:solid beige;
+margin:15px;
+height:150px;
+width: 210px;
+flex-wrap: wrap;
+border-width:3px;
+}
+.contractChild:hover{
+  border:solid black;
+  margin:15px;
+  background-color:beige;
+  height:150px;
+  width: 210px;
+  transition: 1s;
+  flex-wrap: wrap;
+  transform: scale(1.3);
+  box-shadow: 0px 57px 34px -40px rgba(0,0,0,0.3), 0px 3px 40px 2px rgba(0,0,0,.2);
+  
+  }
+.superclassPartner{
+  border: solid beige;
+  display:flex;
+  justify-content: center;
+  padding: 10px;
+  color:beige;
+}
+.partnerClass{
+  border:solid beige;
+ margin:150px;
+ width:275px;
+ font-size:35px;
+}
+.userTitle{
+text-align: center;
+color:beige;
+font-family:serif ;
+font-size:35px;
+}
+.userDescription{
+text-align: center;
+color:beige;
+font-family:serif ;
+font-size:35px;
+
+}
+.userLi{
+justify-content: center;
+color:beige;
+font-size:15px;
+font-family:serif ;
+/* display:flex; */
+margin:15px;
+
+}
+.navParent{
+  display:flex;
+
+}
+body{
+  background-image:url('https://static1.squarespace.com/static/52ccc8e4e4b049a573f03e2d/t/5a90818de2c483bcb23b3d1a/1427319773795/booky+background.jpg?format=1500w');
+  background-size:cover;
+}
+.navTag{
+ margin-left:160px;
+ border:solid black;
+ border-width:2px;
+ /* padding:5px; */
+ background-color:beige;
+ border-radius: 35px;
+ text-decoration: none;
+ text-decoration-color: black;
+ font-size:22px;
+}
+.buttonPreset{
+  background-color:beige;
+  border-width:1px;
+  border-radius: 35px;
+  margin-left:300px;
+  padding:5px;
+  font-size:15px;
+}
+.imageLogo{
+
+  height:200px;
+  width:auto;
+  margin-left:40%;
+}
+.username{
+font-size:25px;
+height:30px;
+width:800px;
+border-radius:25px;
+margin-left:300px;
+font-family: serif;
+padding:5px;
+justify-content:space-between;
+
+
+}
+.firstnameInput{
+font-size:25px;
+height:30px;
+width:800px;
+border-radius:25px;
+margin-left:300px;
+font-family: serif;
+padding:5px;
+justify-content:space-between;
+
+
+}
+.lastnameInput{
+font-size:25px;
+height:30px;
+width:800px;
+border-radius:25px;
+margin-left:300px;
+font-family: serif;
+padding:5px;
+justify-content:space-between;
+
+
+}
+.signatureInput{
+  font-size:25px;
+  height:30px;
+  width:800px;
+  border-radius:25px;
+  margin-left:300px;
+  font-family:serif  ;
+  padding:5px;
+  justify-content:space-between;
+
+
+  }
+.descriptionInput{
+font-size:25px;
+height:30px;
+width:800px;
+border-radius:25px;
+margin-left:300px;
+font-family:serif  ;
+padding:5px;
+justify-content:space-between;
+
+
+}
+.submitButton{
+  font-size:15px;
+  height:35px;
+  width:800px;
+  border-radius:25px;
+  margin-left:300px;
+  font-family:serif  ;
+  border:double blue;
+  margin-bottom:25px;
+}
+UserForm{
+  display: flex;
+}
+.newUserText{
+  color:beige;
+  font-size:35px;
+  /* text-align:center; */
+  font-family:serif  ;
+  margin:15px;
+}
+.newUserTexth1{
+  color:beige;
+  font-size:35px;
+  /* text-align:center; */
+  font-family:serif  ;
+  margin:15px;
+  margin-left:40%;
+}
+.newUserTextHead{
+  color:beige;
+  margin-left:500px;
+  font-size:35px;
+  font-family:serif ;
+}
+.newPartnerTextHead{
+  color:beige;
+  margin-left:300px;
+  font-size:35px;
+  font-family:serif ;
+}
+.newContractTextHead{
+  color:beige;
+  margin-left:400px;
+  font-size:35px;
+  font-family:serif  ;
+}
+#signature{
+  font-family:serif  ;
+}
+.signbox{
+  border:solid beige;
+  width:260px;
+  margin-left:80%;
+
+}
+.signbox2{
+  /* border:solid beige; */
+  width:26 0px;
+  margin-left:80%;
+}
+.floatingDivs{
+  border: solid beige;
+  height:150px;
+  width:350px;
+  background-image: url('http://www.petrowctrust.com/uploads/pressure_sign_paper_500_clr_9238.gif');
+color:beige;
+font-size:20px;
+padding:10px;
+background-size: cover;
+}
+@keyframes distraction{
+
+  0%{
+    margin-left:60px;
+    }
+    50%{
+      transform: rotate(90deg);
+      margin-left:120px;
+    }
+    100%{
+      flex: 1;
+      background-color:beige;
+
+    }
+  }
+
+
+
+
+
+.floatingDivs2{
+  border: solid beige;
+  height:150px;
+  width:350px;
+color:beige;
+font-size:20px;
+padding:10px;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fd/Wikipedia_logo_puzzle_globe_spins_horizontally%2C_revealing_the_contents_of_all_of_its_puzzle_pieces.gif');
+background-size: cover;
+
+
+}
+.floatingDivs3{
+  border: solid beige;
+  height:150px;
+  color:beige;
+  font-size:20px;
+  padding:10px;
+  width:450px;
+  /* animation: distraction 5s infinite ease; */
+  background-image: url('https://media.giphy.com/media/YqK4o9txKgn6M/giphy.gif');
+
+}
+.floatDivParent{
+  display:flex;
+  border:solid white;
+  /* background-color:beige; */
+justify-content: space-around;
+padding:15px;
+}
+.allUserBox{
+  border: solid beige;
+  text-decoration: none;
+  font-size:25px;
+  border-radius:25px;
+  padding:25px;
+  margin: 15px;
+  border-width:1px;
+}
+.allUserBox:hover{
+  border: solid beige;
+  text-decoration: none;
+  font-size:25px;
+  border-radius:25px;
+  padding:25px;
+  margin: 15px;
+  background-color:beige;
+  border-width:1px;
+  transition:1s;
+}
+.momentJs{
+  border: solid beige;
+}
+.editThis{
+  width:55px;
+  height:50px;
+
+}
